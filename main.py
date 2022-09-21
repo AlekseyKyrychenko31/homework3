@@ -11,7 +11,10 @@ elif d == 2:
 elif d == 3:
     print('результат', a * b)
 elif d == 4:
-    print('результат', a / b)
+    if b !=0:
+        print(a  /b)
+    else:
+        print("деление на ноль")
 elif d == 5:
     print('результат', a ** b)
 
